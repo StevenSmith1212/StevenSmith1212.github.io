@@ -8,5 +8,3 @@ document.getElementById("nav").innerHTML =
     </div>"
 
 
-
-document.createElement

@@ -4,36 +4,40 @@ body{
 
 }
 #nav{
-    min-height: 100vh;
     background-color: #B1EDE8;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
 }
 #nav a{
-    display: block;
-    font-size: 1.6rem;
+    float: left; 
     text-decoration: none;
+    font-size: 1.6rem;
     color: black; 
-    padding: 1rem; 
-    border-radius: .3rem;
+    padding: 2%;
 }
+
 
 #nav a:hover{
     background-color:#FFFCF9; 
     transition: 300ms;
+
 }
 
-#full {
-    display: flex;
+#content{
+    margin-top: 10%;
 }
 
 #cell {
     border-style: groove; 
-    margin: 2rem; 
-    padding: 1rem; 
+    margin: 2vw; 
+    padding: 5vw; 
 }
 #cell h1, p{
     font-family:fantasy;
 }
 
 #mapImage img{
-    width: 38rem; 
+    width: 50vw; 
 }
