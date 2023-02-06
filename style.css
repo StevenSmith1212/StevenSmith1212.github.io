@@ -1,15 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
 #nav{
-    max-width: fit-content;
-    min-width: fit-content; 
     min-height: 100vh;
-    border-radius: .3rem;
     background-color: #B1EDE8;
-    margin: 0%; 
-    padding: 0%; 
 }
 #nav a{
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-decoration: none;
     color: black; 
     padding: 1rem; 
@@ -21,3 +21,19 @@
     transition: 300ms;
 }
 
+#full {
+    display: flex;
+}
+
+#cell {
+    border-style: groove; 
+    margin: 2rem; 
+    padding: 1rem; 
+}
+#cell h1, p{
+    font-family:fantasy;
+}
+
+#mapImage img{
+    width: 38rem; 
+}
