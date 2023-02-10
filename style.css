@@ -1,43 +1,29 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #3C4753; 
+}
 
-}
-#nav{
-    background-color: #B1EDE8;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100vw; 
-}
-#nav a{
-    float: left; 
+
+
+#web a{
     text-decoration: none;
-    font-size: 1.6rem;
-    color: black; 
-    padding: 2%;
-}
-
-
-#nav a:hover{
-    background-color:#FFFCF9; 
-    transition: 300ms;
+    color: white;
+    padding: 2vw;  
+    border-style: groove;
+    float: none;
+    margin: 5vw;
+    margin-top: 10vh;  
 
 }
 
-#content{
-    margin-top: 10%;
+#web a:hover{
+    background-color:  #cc8899;
+    transition: 400ms;
+    
 }
 
-#cell {
-    border-style: groove; 
-    margin: 2vw; 
-    padding: 5vw; 
-}
-#cell h1, p{
-    font-family:fantasy;
-}
-
-#mapImage img{
-    width: 50vw; 
+#web H1 {
+    color: white;
+    text-align: center;
 }
