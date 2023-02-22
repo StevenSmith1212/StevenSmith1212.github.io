@@ -18,7 +18,6 @@ body{
     padding: 2%;
 }
 
-
 #nav a:hover{
     background-color:#FFFCF9; 
     transition: 300ms;
@@ -32,12 +31,24 @@ body{
 #cell {
     border-style: groove; 
     margin: 2vw; 
-    padding: 5vw; 
+    padding: 5vw;
+    display: block;  
+    height: 80vh; 
 }
 #cell h1, p{
-    font-family:fantasy;
+    font-family:monospace; 
 }
 
+#cell div{
+    padding: 2vw; 
+}
+
+#desc{
+    float: right; 
+}
+#mapImage{
+    float: left; 
+}
 #mapImage img{
-    width: 50vw; 
+    width: 50vh; 
 }
