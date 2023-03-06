@@ -3,6 +3,9 @@ body{
     padding: 0;
 
 }
+h1, h2, h3, h4, p{
+    font-family:monospace; 
+}
 #nav{
     background-color: #B1EDE8;
     text-align: center;
@@ -29,26 +32,24 @@ body{
 }
 
 #cell {
-    border-style: groove; 
+  
     margin: 2vw; 
-    padding: 5vw;
-    display: block;  
-    height: 80vh; 
-}
-#cell h1, p{
-    font-family:monospace; 
+    padding: 2vw;
+    width: 90vw; 
+    min-height: fit-content; 
+    border-style: groove; 
+    overflow: auto; 
 }
 
-#cell div{
-    padding: 2vw; 
-}
 
 #desc{
     float: right; 
 }
-#mapImage{
-    float: left; 
-}
+
 #mapImage img{
-    width: 50vh; 
+    float: left; 
+    height: auto; 
+    max-width: 35vw; 
+    max-height: 50vw;  
+    margin: 2vw; 
 }
