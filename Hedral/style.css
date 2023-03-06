@@ -32,13 +32,18 @@ h1, h2, h3, h4, p{
 }
 
 #cell {
-  
-    margin: 2vw; 
-    padding: 2vw;
-    width: 90vw; 
-    min-height: fit-content; 
     border-style: groove; 
-    overflow: auto; 
+    margin:auto;
+    margin-bottom: 2vh;
+    padding: 1vw;  
+    height: auto;
+    width: 80vw;
+    overflow: hidden;  
+}
+
+
+#cell div{
+    padding: 2vw; 
 }
 
 
@@ -48,8 +53,18 @@ h1, h2, h3, h4, p{
 
 #mapImage img{
     float: left; 
-    height: auto; 
-    max-width: 35vw; 
-    max-height: 50vw;  
-    margin: 2vw; 
 }
+#mapImage img{
+    height: auto; 
+    max-width: 30vw; 
+}
+
+
+#imageColumn {
+    float: left;
+    display: flex; 
+
+}
+
+
+
