@@ -27,6 +27,7 @@ h1, h2, h3, h4, p{
 
 }
 
+
 #content{
     margin-top: 10%;
 }
@@ -41,18 +42,14 @@ h1, h2, h3, h4, p{
     overflow: hidden;  
 }
 
-
-#cell div{
-    padding: 2vw; 
-}
-
-
 #desc{
     float: right; 
 }
 
 #mapImage img{
-    float: left; 
+    float: left;
+    padding: 1vw; 
+     
 }
 #mapImage img{
     height: auto; 
@@ -60,11 +57,7 @@ h1, h2, h3, h4, p{
 }
 
 
-#imageColumn {
-    float: left;
-    display: flex; 
 
-}
 
 
 
