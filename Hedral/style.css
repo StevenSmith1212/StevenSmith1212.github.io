@@ -5,6 +5,7 @@ body{
 }
 h1, h2, h3, h4, p{
     font-family:monospace; 
+    font-size: 1.5vw;
 }
 #nav{
     background-color: #B1EDE8;
@@ -22,9 +23,11 @@ h1, h2, h3, h4, p{
 }
 
 #nav a:hover{
-    background-color:#FFFCF9; 
+    background-color:#b8f5f0; 
+    font-size:1.65rem;
+    color: #9d6976; 
+    box-shadow: 5px 5px 5px black;
     transition: 300ms;
-
 }
 
 
@@ -40,8 +43,20 @@ h1, h2, h3, h4, p{
     height: auto;
     width: 80vw;
     overflow: hidden;  
+    box-shadow: 10px 10px #CC8899;
 }
 
+#cell a {
+    text-decoration: none; 
+    color: black; 
+   
+}
+
+#cell a:hover{
+    color: #CC8899;
+    transition: 300ms;
+
+}
 
 #Rumors { 
  border-style: groove; 
